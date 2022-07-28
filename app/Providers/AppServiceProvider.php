@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Providers;
+use Illuminate\Support\Facades\Schema;
 
 use Illuminate\Support\ServiceProvider;
 use Google\Ads\GoogleAds\Lib\V9\GoogleAdsClientBuilder;
@@ -36,6 +37,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        Schema::defaultStringLength(191);
     }
 }

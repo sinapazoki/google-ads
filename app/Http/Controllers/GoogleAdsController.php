@@ -7,7 +7,7 @@ use Google\Ads\GoogleAds\Lib\V9\GoogleAdsClient;
 
 class GoogleAdsController extends Controller
 {
-    private const CAMPAIGN_ID = '15588679567';
+    private const CAMPAIGN_ID = '14666210044';
 
     public function index(GoogleAdsClient $googleAdsClient){
 
